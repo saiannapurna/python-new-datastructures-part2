@@ -1,4 +1,4 @@
-#sum of right diagonal in matrix
+#sum of left diagonal in matrix
 
 n=int(input())
 e=[]
