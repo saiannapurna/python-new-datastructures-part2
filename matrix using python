@@ -1,0 +1,13 @@
+#write a program to read matrix and print it
+m=int(input("enter rows"))
+n=int(input("enter columns"))
+e=[]
+for i in range(m):
+    p=[]
+    for j in range(n):
+        x=int(input())
+        p.append(x)
+    e.append(p)
+for i in e:
+    print(i)
+
