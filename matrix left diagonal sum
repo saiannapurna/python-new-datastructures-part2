@@ -1,0 +1,18 @@
+#sum of right diagonal in matrix
+
+n=int(input())
+e=[]
+pk=0
+for i in range(n):
+    p=[]
+    for j in range(n):
+        x=int(input())
+        p.append(x)
+    e.append(p)
+for i in e:
+    print(i)
+for i in range(n):
+    for j in range(n):
+        if(i==j):
+          pk=pk+e[i][j]
+print(pk)
