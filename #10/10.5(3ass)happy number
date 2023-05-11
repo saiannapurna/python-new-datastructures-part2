@@ -1,0 +1,15 @@
+
+def happy(n):
+    sum=0
+    while(n>0):
+        m=n%10
+        sum=sum+(m*m)
+        n=n//10
+    return (sum)
+n=int(input())
+while(n>9):
+    n=happy(n)
+if(n==7 or n==1):
+    print("HAPPY")
+else:
+    print("NOT HAPPY")
