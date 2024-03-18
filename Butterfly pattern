@@ -1,0 +1,12 @@
+
+l=[]
+n=5
+h=[]
+for i in range(n//2+1):
+    l.append("* "*(i+1)+"  "*((n-1)-(2*i))+"* "*(i+1))
+for i in l:
+    print(i)
+l.pop()
+l.reverse()
+for i in l:
+    print(i)
